@@ -83,6 +83,11 @@ public class OcspUtil {
 			}
 			// Get Response
 			InputStream in = (InputStream) con.getContent();
+			
+			if (in.available() == 0) {
+				return null;
+			}
+			
 			OCSPResp ocspResponse = new OCSPResp(in);
 
 			if (ocspResponse.getStatus() != 0) {
