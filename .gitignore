@@ -1,5 +1,3 @@
-
-
 # Directories #
 /build/
 /bin/
@@ -35,7 +33,9 @@ Desktop.ini
 .project
 .metadata
 .classpath
+*.classpath
 .settings/
+*.settings/
 .loadpath
 *.pydevproject
 bin/**
