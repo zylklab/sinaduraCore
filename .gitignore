@@ -34,8 +34,9 @@ Desktop.ini
 .metadata
 .classpath
 *.classpath
-.settings/
-*.settings/
+/.settings/**
+.settings/**
+*.settings/**
 .loadpath
 *.pydevproject
 bin/**
