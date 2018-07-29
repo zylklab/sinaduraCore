@@ -8,9 +8,11 @@
 	<url>http://www.sinadura.net</url>
 
 	<scm>
-		<connection>scm:svn:https://services.zylk.net/sinadura-repo/sinadura/sinaduraCore/tags/sinaduraCore-3.3.17</connection>
-		<url>https://services.zylk.net/sinadura-repo/sinadura/sinaduraCore/tags/sinaduraCore-3.3.17</url>
-	</scm>
+    	<connection>scm:git:https://github.com/zylklab/sinaduraCore.git</connection>
+        <developerConnection>scm:git:https://github.com/zylklab/sinaduraCore.git</developerConnection>
+        <url>https://github.com/zylklab/sinaduraCore</url>
+        <tag>develop</tag>
+    </scm>
 
 
 	<developers>
