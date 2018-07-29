@@ -3,7 +3,7 @@
 	<groupId>sinadura</groupId>
 	<artifactId>sinaduraCore</artifactId>
 	<name>Sinadura core</name>
-	<version>3.3.20-SNAPSHOT</version>
+	<version>3.3.21-SNAPSHOT</version>
 	<description>Proyecto con las funcionalidades core para cubrir la firma digital de archivos.</description>
 	<url>http://www.sinadura.net</url>
 
@@ -150,6 +150,23 @@
 						<goals>
 							<goal>jar</goal>
 						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>2.7</version>
+				<executions>
+					<execution>
+						<id>attach-javadocs</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+						<configuration>
+							<failOnError>false</failOnError>
+                			<additionalparam>-Xdoclint:none</additionalparam>
+            			</configuration>
 					</execution>
 				</executions>
 			</plugin>
