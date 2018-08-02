@@ -271,7 +271,7 @@
 		<dependency>
 			<groupId>es.mityc.jumbo.adsi</groupId>
 			<artifactId>MITyCLibXADES-sinadura</artifactId>
-			<version>1.0.7</version>
+			<version>1.0.9</version>
 			<scope>compile</scope>
 			<exclusions>
 				<exclusion>
@@ -339,7 +339,7 @@
 		<dependency>
 			<groupId>es.mityc.jumbo.adsi</groupId>
 			<artifactId>MITyCLibOCSP-sinadura</artifactId>
-			<version>1.0.5</version>
+			<version>1.0.8</version>
 			<scope>compile</scope>
 			<exclusions>
 				<exclusion>
@@ -371,7 +371,7 @@
 		<dependency>
 			<groupId>es.mityc.jumbo.adsi</groupId>
 			<artifactId>MITyCLibTSA-sinadura</artifactId>
-			<version>1.0.5</version>
+			<version>1.0.8</version>
 			<scope>compile</scope>
 			<exclusions>
 				<exclusion>
