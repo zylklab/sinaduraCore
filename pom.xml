@@ -271,7 +271,7 @@
 		<dependency>
 			<groupId>es.mityc.jumbo.adsi</groupId>
 			<artifactId>MITyCLibXADES-sinadura</artifactId>
-			<version>1.0.9</version>
+			<version>1.0.10</version>
 			<scope>compile</scope>
 			<exclusions>
 				<exclusion>
@@ -339,7 +339,7 @@
 		<dependency>
 			<groupId>es.mityc.jumbo.adsi</groupId>
 			<artifactId>MITyCLibOCSP-sinadura</artifactId>
-			<version>1.0.8</version>
+			<version>1.0.9</version>
 			<scope>compile</scope>
 			<exclusions>
 				<exclusion>
@@ -371,7 +371,7 @@
 		<dependency>
 			<groupId>es.mityc.jumbo.adsi</groupId>
 			<artifactId>MITyCLibTSA-sinadura</artifactId>
-			<version>1.0.8</version>
+			<version>1.0.9</version>
 			<scope>compile</scope>
 			<exclusions>
 				<exclusion>
@@ -395,7 +395,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>xmlsec-mityc-sinadura</artifactId>
-			<version>1.4.3</version>
+			<version>1.4.4</version>
 			<scope>compile</scope>
 		</dependency>
 
@@ -422,22 +422,23 @@
 		<dependency>
 			<groupId>org.bouncycastle</groupId>
 			<artifactId>bcmail-jdk16</artifactId>
-			<version>1.46</version>
+			<version>1.45</version>
+			<type>jar</type>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.bouncycastle</groupId>
 			<artifactId>bcprov-jdk16</artifactId>
-			<version>1.46</version>
+			<version>1.45</version>
+			<type>jar</type>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.bouncycastle</groupId>
 			<artifactId>bctsp-jdk16</artifactId>
-			<version>1.46</version>
-		</dependency>
-		<dependency>
-			<groupId>org.bouncycastle</groupId>
-			<artifactId>bcprov-jdk15on</artifactId>
-			<version>1.46</version>
+			<version>1.45</version>
+			<type>jar</type>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
