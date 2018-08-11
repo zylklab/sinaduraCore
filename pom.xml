@@ -3,7 +3,7 @@
 	<groupId>sinadura</groupId>
 	<artifactId>sinaduraCore</artifactId>
 	<name>Sinadura core</name>
-	<version>3.3.23-SNAPSHOT</version>
+	<version>3.3.23</version>
 	<description>Proyecto con las funcionalidades core para cubrir la firma digital de archivos.</description>
 	<url>http://www.sinadura.net</url>
 
@@ -11,7 +11,7 @@
     	<connection>scm:git:https://github.com/zylklab/sinaduraCore.git</connection>
         <developerConnection>scm:git:https://github.com/zylklab/sinaduraCore.git</developerConnection>
         <url>https://github.com/zylklab/sinaduraCore</url>
-        <tag>develop</tag>
+        <tag>sinaduraCore-3.3.23</tag>
     </scm>
 
 
