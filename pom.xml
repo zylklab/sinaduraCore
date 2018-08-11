@@ -395,7 +395,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>xmlsec-mityc-sinadura</artifactId>
-			<version>1.4.4</version>
+			<version>1.4.5</version>
 			<scope>compile</scope>
 		</dependency>
 
